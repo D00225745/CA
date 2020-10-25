@@ -1,4 +1,4 @@
-package com.dkit.gd2.johnloane;
+package com.dkit.gd2.berktatar;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -20,11 +20,11 @@ public class AppTest
         interests.add(2);
         interests.add(3);
         interests.add(4);
-        Person stephen = new Person("Stephen", "Drogheda", 20, interests);
-        Person zak = new Person("Zak", "Mornington", 18, interests);
-        Person berk = new Person("Berk", "Dundalk", 30, interests);
-        Person oisín = new Person("Oisín", "Drogheda", 8, interests);
-        ArrayList<Person> people = new ArrayList<>();
+        Student stephen = new Student("Stephen", "Drogheda", 20, interests);
+        Student zak = new Student("Zak", "Mornington", 18, interests);
+        Student berk = new Student("Berk", "Dundalk", 30, interests);
+        Student oisín = new Student("Oisín", "Drogheda", 8, interests);
+        ArrayList<Student> people = new ArrayList<>();
         people.add(stephen);
         people.add(zak);
         people.add(berk);
