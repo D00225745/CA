@@ -13,22 +13,18 @@ import java.util.ArrayList;
 public class AppTest 
 {
     @Test
-    public void getAverageAge()
+    public void getAverageResults()
     {
-        ArrayList<Integer> interests = new ArrayList<>();
-        interests.add(1);
-        interests.add(2);
-        interests.add(3);
-        interests.add(4);
-        Student stephen = new Student("Stephen", "Drogheda", 20, interests);
-        Student zak = new Student("Zak", "Mornington", 18, interests);
-        Student berk = new Student("Berk", "Dundalk", 30, interests);
-        Student oisín = new Student("Oisín", "Drogheda", 8, interests);
+
+        /*Student student1 = new Student("Student1", 1, 20, Student_Code2:);
+        Student student2 = new Student("Student2", 3, 18, );
+
         ArrayList<Student> people = new ArrayList<>();
-        people.add(stephen);
-        people.add(zak);
-        people.add(berk);
-        people.add(oisín);
-        assertEquals(19.0, App.getAverageAge(people), 0.1);
+        people.add(student1);
+        people.add(student2);
+
+
+         */
+
     }
 }
